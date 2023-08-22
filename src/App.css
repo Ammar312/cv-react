@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+.display {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+.main {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border: 1px solid black;
+}
+.main1Div {
+  display: flex;
+  align-items: center;
+}
+.main1Div .img {
+  display: flex;
+}
+.main1Div .img span {
+  border: 1px solid goldenrod;
+  background: rgb(31, 28, 28);
+  /* width: 10em; */
+  height: 10em;
+  color: whitesmoke;
+  font-size: 5em;
+}
+.sidebar {
+  width: 30%;
+  border: 1px solid goldenrod;
+}
