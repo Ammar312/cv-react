@@ -25,7 +25,40 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="sidebar">Sidebar</section>
+        <section className="sidebar">
+          <div className="info">
+            <div className="line">
+              <span>
+                <i className="bi bi-envelope-fill"></i>
+              </span>
+              <p>ammar.ul.mustafa3@gmail.com</p>
+            </div>
+            <div className="line">
+              <span>
+                <i class="bi bi-phone-fill"></i>
+              </span>
+              <p>03104160942</p>
+            </div>
+            <div className="line">
+              <span>
+                <i class="bi bi-geo-alt-fill"></i>
+              </span>
+              <p>Karachi,Pakistan</p>
+            </div>
+            <div className="line">
+              <span>
+                <i class="bi bi-linkedin"></i>
+              </span>
+              <p>linkedin.com/in/ammar-ul-mustafa</p>
+            </div>
+            <div className="line">
+              <span>
+                <i class="bi bi-github"></i>
+              </span>
+              <p>github.com/Ammar312</p>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
