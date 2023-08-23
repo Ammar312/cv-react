@@ -66,6 +66,9 @@ body {
 }
 .main2Div {
   margin: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
 }
 .iconAndHeading {
   display: flex;
@@ -81,6 +84,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.iconAndHeading span i {
+  font-size: 1.5rem;
+}
 .iconAndHeading .skillIcon {
   width: 2em;
   height: 2em;
@@ -89,10 +95,39 @@ body {
   font-size: 1.6rem;
   font-weight: 500;
 }
-
-.skill {
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+.skills .skill {
   display: flex;
   gap: 6em;
+}
+
+.main3Div {
+  margin: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+}
+.educationDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.education div {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.education span {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.education p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 5px;
 }
 
 /* -------- */
@@ -111,7 +146,7 @@ body {
   flex-direction: column;
   padding: 2em 1em;
   background: rgb(36, 35, 35);
-  gap: 0.5em;
+  gap: 0.7em;
 }
 .line {
   display: flex;

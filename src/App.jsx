@@ -1,5 +1,6 @@
 import "./App.css";
 import skill from "./skills.png";
+import suitcase from "./suitcase.png";
 
 function App() {
   return (
@@ -32,13 +33,59 @@ function App() {
               </span>
               <p>SKILLS</p>
             </div>
-            <div className="skill">
-              <span>
-                Front-end <br />
-                technology
-              </span>
-              <p>HTML5, CSS3, JavaScript and ReactJS</p>
+            <div className="skills">
+              <div className="skill">
+                <span>
+                  Front-end <br />
+                  technology
+                </span>
+                <p>HTML5, CSS3, JavaScript and ReactJS</p>
+              </div>
+              <div className="skill">
+                <span>
+                  Back-end <br />
+                  technology
+                </span>
+                <p>NodeJS and ExpressJS</p>
+              </div>
+              <div className="skill">
+                <span>Database</span>
+                <p>MongoDB and Firebase</p>
+              </div>
+              <div className="skill">
+                <span>Soft Skills</span>
+                <p>Teamwork, Adaptability and Work Ethic</p>
+              </div>
             </div>
+          </div>
+          <div className="main3Div">
+            <div className="iconAndHeading">
+              <span>
+                <i className="bi bi-mortarboard"></i>
+              </span>
+              <p>Education</p>
+            </div>
+            <div className="educationDiv">
+              <div className="education">
+                <div>Intermediate in Pre-Engineering</div>
+                <span>DJ Science College</span>
+                <p>2020-2022</p>
+              </div>
+              <div className="education">
+                <div>Matriculation in Computer</div>
+                <span>The Educators School</span>
+                <p>2018-2020</p>
+              </div>
+            </div>
+          </div>
+          <div className="main2Div">
+            <div className="iconAndHeading">
+              <span>
+                <img src={suitcase} alt="skill icon" className="skillIcon" />
+              </span>
+              <p>Work Experience</p>
+            </div>
+            <h2>Not Yet</h2>
           </div>
         </section>
 
