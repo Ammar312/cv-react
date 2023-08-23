@@ -138,6 +138,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 1em;
+  gap: 1em;
 }
 .info {
   width: 100%;
@@ -165,4 +166,66 @@ body {
 }
 .line p {
   color: white;
+}
+
+.secondBar {
+  width: 100%;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1em;
+  background: rgb(36, 35, 35);
+  gap: 0.7em;
+}
+.iconAndHeadingSideBar {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+}
+.iconAndHeadingSideBar span {
+  width: 3em;
+  height: 3em;
+  border: 2px solid #f3ae00;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconAndHeadingSideBar span i {
+  font-size: 1.5rem;
+  color: #f3ae00;
+}
+.iconAndHeadingSideBar .skillIcon {
+  width: 2em;
+  height: 2em;
+}
+.iconAndHeadingSideBar p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #f3ae00;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8em;
+  padding: 1.2em;
+}
+.project {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+}
+.project a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.project i {
+  color: white;
+  font-size: 0.8rem;
+}
+.language {
+  color: white;
+  font-size: 1.4rem;
 }
