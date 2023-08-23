@@ -17,12 +17,11 @@ function App() {
               <h1>Ammar Ul Mustafa</h1>
               <p>MERN STACK DEVELOPER</p>
               <div>
-                Passionate MERN Stack Developer with a flair for crafting
-                seamless web experiences. Transforming ideas into elegant,
-                functional solutions through innovative coding and a keen eye
-                for design. Eager to contribute expertise in MongoDB, Express,
-                React, and Node.js to create dynamic applications that leave a
-                lasting impact.
+                Passionate MERN Stack Developer with a knack for creating smooth
+                web experiences. Turning ideas into practical solutions with
+                creative coding and an eye for good design. Excited to use my
+                MongoDB, Express, React, and Node.js skills to build dynamic
+                apps that make a lasting impact.
               </div>
             </div>
           </div>
@@ -133,7 +132,7 @@ function App() {
               </div>
               <div className="projects">
                 <div className="project">
-                  <i class="bi bi-app"></i>
+                  <i className="bi bi-app"></i>
                   <a
                     href="https://jwt-auth-server-production-8cfa.up.railway.app/"
                     target="_blank"
@@ -143,7 +142,7 @@ function App() {
                   </a>
                 </div>
                 <div className="project">
-                  <i class="bi bi-app"></i>
+                  <i className="bi bi-app"></i>
                   <a
                     href="https://ammar312.github.io/weather-app/"
                     target="_blank"
@@ -153,7 +152,7 @@ function App() {
                   </a>
                 </div>
                 <div className="project">
-                  <i class="bi bi-app"></i>
+                  <i className="bi bi-app"></i>
                   <a
                     href="https://ammar312.github.io/project-planning/"
                     target="_blank"
@@ -163,7 +162,7 @@ function App() {
                   </a>
                 </div>
                 <div className="project">
-                  <i class="bi bi-app"></i>
+                  <i className="bi bi-app"></i>
                   <a
                     href="https://ammar312.github.io/grocery-list/"
                     target="_blank"
@@ -173,7 +172,7 @@ function App() {
                   </a>
                 </div>
                 <div className="project">
-                  <i class="bi bi-app"></i>
+                  <i className="bi bi-app"></i>
                   <a
                     href="https://ammar312.github.io/threads-clone/"
                     target="_blank"
@@ -187,17 +186,17 @@ function App() {
             <div className="projectDiv">
               <div className="iconAndHeadingSideBar">
                 <span>
-                  <i class="bi bi-translate"></i>
+                  <i className="bi bi-translate"></i>
                 </span>
                 <p>LANGUAGES</p>
               </div>
               <div className="projects">
                 <div className="project">
-                  <i class="bi bi-app"></i>
+                  <i className="bi bi-app"></i>
                   <p className="language">URDU</p>
                 </div>
                 <div className="project">
-                  <i class="bi bi-app"></i>
+                  <i className="bi bi-app"></i>
                   <p className="language">ENGLISH</p>
                 </div>
               </div>
@@ -205,21 +204,21 @@ function App() {
             <div className="projectDiv">
               <div className="iconAndHeadingSideBar">
                 <span>
-                  <i class="bi bi-translate"></i>
+                  <i className="bi bi-translate"></i>
                 </span>
                 <p>HOBBIES</p>
               </div>
               <div className="projects">
                 <div className="project">
-                  <i class="bi bi-app"></i>
+                  <i className="bi bi-app"></i>
                   <p className="language">Learning</p>
                 </div>
                 <div className="project">
-                  <i class="bi bi-app"></i>
+                  <i className="bi bi-app"></i>
                   <p className="language">Travelling</p>
                 </div>
                 <div className="project">
-                  <i class="bi bi-app"></i>
+                  <i className="bi bi-app"></i>
                   <p className="language">Gardening</p>
                 </div>
               </div>
