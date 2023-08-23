@@ -1,4 +1,5 @@
 import "./App.css";
+import skill from "./skills.png";
 
 function App() {
   return (
@@ -24,7 +25,24 @@ function App() {
               </div>
             </div>
           </div>
+          <div className="main2Div">
+            <div className="iconAndHeading">
+              <span>
+                <img src={skill} alt="skill icon" className="skillIcon" />
+              </span>
+              <p>SKILLS</p>
+            </div>
+            <div className="skill">
+              <span>
+                Front-end <br />
+                technology
+              </span>
+              <p>HTML5, CSS3, JavaScript and ReactJS</p>
+            </div>
+          </div>
         </section>
+
+        {/* --------------- */}
         <section className="sidebar">
           <div className="info">
             <div className="line">
@@ -35,25 +53,25 @@ function App() {
             </div>
             <div className="line">
               <span>
-                <i class="bi bi-phone-fill"></i>
+                <i className="bi bi-phone-fill"></i>
               </span>
               <p>03104160942</p>
             </div>
             <div className="line">
               <span>
-                <i class="bi bi-geo-alt-fill"></i>
+                <i className="bi bi-geo-alt-fill"></i>
               </span>
               <p>Karachi,Pakistan</p>
             </div>
             <div className="line">
               <span>
-                <i class="bi bi-linkedin"></i>
+                <i className="bi bi-linkedin"></i>
               </span>
               <p>linkedin.com/in/ammar-ul-mustafa</p>
             </div>
             <div className="line">
               <span>
-                <i class="bi bi-github"></i>
+                <i className="bi bi-github"></i>
               </span>
               <p>github.com/Ammar312</p>
             </div>
