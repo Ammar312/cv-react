@@ -113,7 +113,13 @@ function App() {
               <span>
                 <i className="bi bi-linkedin"></i>
               </span>
-              <p>linkedin.com/in/ammar-ul-mustafa</p>
+              <a
+                href="https://www.linkedin.com/in/ammar-ul-mustafa-728b5820b/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkedin.com/in/ammar-ul-mustafa
+              </a>
             </div>
             <div className="line">
               <span>

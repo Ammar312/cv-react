@@ -166,6 +166,9 @@ body {
 .line p {
   color: white;
 }
+.line a {
+  color: white;
+}
 
 .secondBar {
   width: 100%;
