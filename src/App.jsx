@@ -38,18 +38,18 @@ function App() {
                   Front-end <br />
                   technology
                 </span>
-                <p>HTML5, CSS3, JavaScript and ReactJS</p>
+                <p>HTML5, CSS3, Tailwind CSS, JavaScript and ReactJS</p>
               </div>
               <div className="skill">
                 <span>
                   Back-end <br />
                   technology
                 </span>
-                <p>NodeJS and ExpressJS</p>
+                <p>NodeJS, ExpressJS and JWT</p>
               </div>
               <div className="skill">
                 <span>Database</span>
-                <p>MongoDB and Firebase</p>
+                <p>MongoDB, Firebase and Pinecone</p>
               </div>
               <div className="skill">
                 <span>Soft Skills</span>
@@ -65,6 +65,11 @@ function App() {
               <p>Education</p>
             </div>
             <div className="educationDiv">
+              <div className="education">
+                <div>Web and App Development</div>
+                <span>Saylani Mass IT Training {`(SMIT)`}</span>
+                <p>Dec 2022 - Dec 2023</p>
+              </div>
               <div className="education">
                 <div>Intermediate in Pre-Engineering</div>
                 <span>DJ Science College</span>
@@ -82,9 +87,8 @@ function App() {
               <span>
                 <img src={suitcase} alt="skill icon" className="skillIcon" />
               </span>
-              <p>Work Experience</p>
+              <p>Certificates</p>
             </div>
-            <h2>Not Yet</h2>
           </div>
         </section>
 
@@ -101,13 +105,13 @@ function App() {
               <span>
                 <i className="bi bi-phone-fill"></i>
               </span>
-              <p>03104160942</p>
-            </div>
-            <div className="line">
-              <span>
-                <i className="bi bi-geo-alt-fill"></i>
-              </span>
-              <p>Karachi,Pakistan</p>
+              <a
+                href="https://wa.me/3104160942"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                03104160942
+              </a>
             </div>
             <div className="line">
               <span>
@@ -125,7 +129,19 @@ function App() {
               <span>
                 <i className="bi bi-github"></i>
               </span>
-              <p>github.com/Ammar312</p>
+              <a
+                href="https://github.com/Ammar312/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github.com/Ammar312
+              </a>
+            </div>
+            <div className="line">
+              <span>
+                <i className="bi bi-geo-alt-fill"></i>
+              </span>
+              <p>Karachi,Pakistan</p>
             </div>
           </div>
           <div className="secondBar">
