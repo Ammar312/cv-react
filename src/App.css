@@ -129,6 +129,9 @@ body {
   font-weight: 300;
   margin-top: 5px;
 }
+.education a {
+  color: black;
+}
 
 /* -------- */
 .sidebar {

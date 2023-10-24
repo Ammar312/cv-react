@@ -1,6 +1,9 @@
 import "./App.css";
 import skill from "./skills.png";
 import suitcase from "./suitcase.png";
+import python from "./assets/python.pdf";
+import wordpress from "./assets/wordpress.pdf";
+import graphic from "./assets/graphic design.pdf";
 
 function App() {
   return (
@@ -87,7 +90,39 @@ function App() {
               <span>
                 <img src={suitcase} alt="skill icon" className="skillIcon" />
               </span>
-              <p>Certificates</p>
+              <p>Certifications</p>
+            </div>
+            <div className="education">
+              <div>Google Certificate</div>
+              <a
+                href={python}
+                download="Google Certification in Python"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>Crash Course in Python</span>
+              </a>
+            </div>
+            <div className="education">
+              <div>DigiSkills Certificates</div>
+              <a
+                href={wordpress}
+                download="Wordpress certificate"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>Wordpress Certificate</span>
+              </a>
+              <br />
+              <br />
+              <a
+                href={graphic}
+                download="Graphic Design certificate"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>Graphic Design Certificate</span>
+              </a>
             </div>
           </div>
         </section>
