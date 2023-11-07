@@ -4,6 +4,7 @@ import suitcase from "./suitcase.png";
 import python from "./assets/python.pdf";
 import wordpress from "./assets/wordpress.pdf";
 import graphic from "./assets/graphic design.pdf";
+import pic from "./pic.png";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
           <div className="main1Div">
             <div className="img">
               <span>
-                <i className="bi bi-person-fill"></i>
+                <img src={pic} alt="" />
+                {/* <i className="bi bi-person-fill"></i> */}
               </span>
             </div>
             <div className="nameAndTagline">

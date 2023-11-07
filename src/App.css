@@ -41,6 +41,11 @@ body {
   align-items: center;
   border-radius: 5px;
   padding: 1em;
+  /* overflow: hidden; */
+}
+.main1Div .img span img {
+  width: 2em;
+  height: 2em;
 }
 .nameAndTagline {
   /* border: 1px solid salmon; */
