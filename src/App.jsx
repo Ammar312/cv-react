@@ -193,6 +193,16 @@ function App() {
                 <div className="project">
                   <i className="bi bi-app"></i>
                   <a
+                    href="https://my-portfolio-ammar.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    My Portfolio
+                  </a>
+                </div>
+                <div className="project">
+                  <i className="bi bi-app"></i>
+                  <a
                     href="https://jwt-auth-server-production-8cfa.up.railway.app/"
                     target="_blank"
                     rel="noopener noreferrer"
